@@ -202,8 +202,11 @@ gaps right 0
 gaps bottom 0
 gaps left 0
 
-exec --no-startup-id feh --bg-scale /home/edan/Pictures/liquid-ink.png
+exec --no-startup-id feh --bg-fill /home/edan/Pictures/new-wallpaper.jpg
 exec --no-startup-id "compton -b --config ~/.config/compton/compton.conf"
+
+exec --no-startup-id xinput set-prop 15 298 1
+#enables touchpad tap to click 
 
 bindsym XF86MonBrightnessUp exec light -A 5 # increase screen brightness
 bindsym XF86MonBrightnessDown exec light -U 5 # decrease screen brightness
@@ -211,7 +214,7 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #i
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
+
 client.focused  #ffffff #ffffff #ffffff #ffffff #888888
 
 bindsym $mod+Shift+p exec lock.sh
-
