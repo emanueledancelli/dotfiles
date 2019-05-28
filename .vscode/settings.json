@@ -1,0 +1,42 @@
+{
+  "window.zoomLevel": 0,
+  "editor.fontFamily": "\"Fira Code\"",
+  "git.enableSmartCommit": true,
+  "files.autoSave": "onFocusChange",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "One Dark Pro Vivid",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx",
+    "xml": {
+      "attr_quotes": "single"
+    }
+  },
+  "vetur.format.defaultFormatter.html": "js-beautify-html",
+  "vetur.format.defaultFormatterOptions": {
+    "js-beautify-html": {
+      "wrap_attributes": "force-expand-multiline"
+      // js-beautify-html settings here
+    }
+  },
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "window.menuBarVisibility": "toggle",
+  "workbench.activityBar.visible": true,
+  "css.lint.boxModel": "warning",
+  "css.lint.duplicateProperties": "error",
+  "css.lint.emptyRules": "error",
+  "editor.fontLigatures": true,
+  "editor.cursorWidth": 3,
+  "editor.renderWhitespace": "boundary",
+  "terminal.integrated.rendererType": "dom",
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDelete": false,
+  "prettier.eslintIntegration": true,
+  "explorer.confirmDragAndDrop": false,
+  "vetur.validation.template": false
+}
