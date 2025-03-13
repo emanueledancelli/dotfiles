@@ -26,7 +26,6 @@
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
   "window.menuBarVisibility": "toggle",
-  "workbench.activityBar.visible": true,
   "css.lint.boxModel": "warning",
   "css.lint.duplicateProperties": "error",
   "css.lint.emptyRules": "error",
